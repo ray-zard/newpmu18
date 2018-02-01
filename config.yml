@@ -30,6 +30,7 @@ PATHS:
     - "node_modules/bootstrap/scss"
     - "node_modules/air-datepicker/src/sass"
     - "node_modules/open-iconic/font/css"
+    - "node_modules/baguettebox.js/src"
   # Paths to JavaScript entry points for webpack to bundle modules
   entries:
     - "src/assets/js/app.js"
