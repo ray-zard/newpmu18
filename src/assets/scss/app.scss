@@ -8,7 +8,6 @@
 */
 
 @import "functions";
-// @import "variables";
 @import "settings";
  @import "mixins";
  @import "root";
@@ -56,8 +55,11 @@
 
 // Шрифты и иконки
 @import "open-iconic-bootstrap.scss";
+@import "main-settings";
 
 //  Основные стили
 @import "components/navbar";
 @import "components/jumbotron";
 @import "components/datepicker";
+@import "components/main-container";
+@import "components/comments";

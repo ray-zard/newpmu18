@@ -29,7 +29,7 @@ function loadConfig() {
 
 // Build the "dist" folder by running all of the below tasks
 gulp.task('build',
- gulp.series(clean, gulp.parallel(pages, sass, javascript, images, copy), styleGuide));
+ gulp.series(clean, gulp.parallel(pages, sass, javascript, images, fonts, copy), styleGuide));
 
 // Build the site, run the server, and watch for file changes
 gulp.task('default',
@@ -138,6 +138,12 @@ function images() {
       progressive: true
     })))
     .pipe(gulp.dest(PATHS.dist + '/assets/img'));
+}
+
+// Fonts
+function fonts() {
+  return gulp.src('node_modules/open-iconic/font/fonts/open-iconic.*')
+    .pipe(gulp.dest(PATHS.dist + '/assets/fonts'));
 }
 
 // Start a server with BrowserSync to preview the site in
