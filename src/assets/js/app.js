@@ -14,8 +14,10 @@ import AirDatePicker from 'air-datepicker';
 $(document).ready(function() {
 
 	$('#sandbox-container').datepicker({
-		language: 'my-lang'
+		range: true
 	});
+
+
 
 	BaguetteBox.run('.gallery');
 

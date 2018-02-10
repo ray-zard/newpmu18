@@ -1,0 +1,17 @@
+.article.gallery {
+	width: 100%;
+	column-count: 5;
+	column-fill: balance;
+	
+  .link {
+		overflow: hidden;
+		display: inline-block;
+		width: 100%;
+	}
+	
+	
+  .image {
+		width: 100%;
+		display: block;
+  }
+}

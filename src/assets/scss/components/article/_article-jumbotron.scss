@@ -1,0 +1,23 @@
+.jumbotron.article {
+
+  position: relative;
+  overflow: hidden;
+  height: 18rem;
+
+  .response-img {
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+		width: 100%;
+		transform: translateY(-50%);
+		z-index: 0;
+		
+	}
+	
+	.container {
+		position: relative;
+		z-index: 100;
+	}
+}
