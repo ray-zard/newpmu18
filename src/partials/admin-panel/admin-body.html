@@ -1,6 +1,11 @@
-<div class="border rounded-bottom border-top-0 col-lg-12">
+<div class="border tab-content rounded-bottom border-top-0 col-lg-12" id="myTabContent">
 
-	{{> events}}
-	{{> users}}
+	<div class="tab-pane pt-3 pb-3 fade show active" id="tape" role="tabpanel" aria-labelledby="tape-tab">
+		{{> events}}
+	</div>
+
+	<div class="tab-pane pt-3 pb-3 fade" id="users" role="tabpanel" aria-labelledby="users-tab">
+		{{> users}}
+	</div>
 
 </div>

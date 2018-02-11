@@ -1,0 +1,22 @@
+.table.admin {
+
+	th, td {
+		vertical-align:middle;
+	}
+
+	.table-id,
+	.table-date,
+	.table-control {
+		text-align: center;
+	}
+
+	.table-title {
+		width: 20rem;
+	}
+
+	.table-control {
+		.btn {
+			padding: 0.375rem 0.57rem;
+		}
+	}
+}
