@@ -14,7 +14,12 @@ import AirDatePicker from 'air-datepicker';
 $(document).ready(function() {
 
 	$('#sandbox-container').datepicker({
-		range: true
+		range: true,
+		inline: true,
+		timepicker: true,
+		minutesStep: 5,
+		dateFormat: 'dd-mm-yy',
+		timeFormat: 'hh:ii'
 	});
 
 
